@@ -1,0 +1,4 @@
+interface:
+  display_name: "카카오톡 대화 리뷰"
+  short_description: "채팅방·기간·원하는 결과를 확인하고 요약·내 할 일·중요 이슈 정리"
+  default_prompt: "$kakaotalk-review로 카카오톡을 조회해줘. 먼저 채팅방 종류와 이름, 조회 기간, 조회 후 원하는 결과를 확인해줘."
