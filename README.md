@@ -93,6 +93,8 @@ $kakaotalk-review
 
 [가상 사용 예시](docs/examples.md) · [검증 범위](docs/verification.md) · [스킬 원문](skills/kakaotalk-review/SKILL.md)
 
+로컬 판단 모델(Laya)과 클라우드 판단 모델(Jev API)을 이용한 1차 분류도 검토·시험했습니다. 다만 현재는 Codex가 Computer Use로 수집하는 과정에서 이미 원문을 읽으므로 별도 분류를 추가하면 처리가 중복됩니다. 전체 작업의 시간·비용 절감이 확인되지 않아 배포 기능에서 제외하고, Codex가 직접 판단하는 구성을 유지합니다.
+
 ## 라이선스
 
 [MIT](LICENSE). 카카오 또는 OpenAI의 공식 배포물이 아닙니다.
