@@ -93,12 +93,6 @@ $kakaotalk-review
 
 [가상 사용 예시](docs/examples.md) · [검증 범위](docs/verification.md) · [스킬 원문](skills/kakaotalk-review/SKILL.md)
 
-## 별도 로컬 판단 실험 스킬
-
-기존 스킬은 그대로 유지합니다. Ollaya + Laya multilingual을 쓰는 별도 스킬은 **`kakaotalk-review-local`**입니다. 현재 한국어 실험에서 충분한 분류 품질이나 전체 속도 개선이 확인되지 않아 모든 메시지를 Codex가 재검토합니다.
-
-[새 스킬·설치·실측 결과](docs/local-experiment.md) · [로컬 스킬 원문](skills/kakaotalk-review-local/SKILL.md)
-
 ## 라이선스
 
 [MIT](LICENSE). 카카오 또는 OpenAI의 공식 배포물이 아닙니다.
