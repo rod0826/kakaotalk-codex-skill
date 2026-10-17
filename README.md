@@ -93,11 +93,7 @@ $kakaotalk-review
 
 [가상 사용 예시](docs/examples.md) · [검증 범위](docs/verification.md) · [스킬 원문](skills/kakaotalk-review/SKILL.md)
 
-## 별도 로컬 판단 실험 스킬
-
-기존 스킬은 그대로 유지합니다. Ollaya + Laya multilingual을 쓰는 별도 스킬은 **`kakaotalk-review-local`**입니다. 현재 한국어 실험에서 충분한 분류 품질이나 전체 속도 개선이 확인되지 않아 모든 메시지를 Codex가 재검토합니다.
-
-[새 스킬·설치·실측 결과](docs/local-experiment.md) · [로컬 스킬 원문](skills/kakaotalk-review-local/SKILL.md)
+로컬 판단 모델(Laya)과 클라우드 판단 모델(Jev API)을 이용한 1차 분류도 검토·시험했습니다. 다만 현재는 Codex가 Computer Use로 수집하는 과정에서 이미 원문을 읽으므로 별도 분류를 추가하면 처리가 중복됩니다. 전체 작업의 시간·비용 절감이 확인되지 않아 배포 기능에서 제외하고, Codex가 직접 판단하는 구성을 유지합니다.
 
 ## 라이선스
 

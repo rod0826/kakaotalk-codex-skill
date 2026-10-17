@@ -1,4 +1,0 @@
-interface:
-  display_name: "카카오톡 리뷰 · 로컬 판단 실험"
-  short_description: "Ollaya와 Laya 다국어 모델로 대화를 보조 분류하고 Codex가 검토합니다"
-  default_prompt: "$kakaotalk-review-local로 지정한 채팅방과 기간을 조회하고 원하는 결과를 확인한 뒤 정리해 주세요."
